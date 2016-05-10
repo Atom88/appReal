@@ -1,0 +1,20 @@
+.page-site {
+	display:none;
+}
+body {
+	height:100%;
+	min-height:200px;
+}
+.ie {
+	display:block;
+	padding:20px;
+	border:2px solid #fff;
+	background-color:#ededed;
+	width:300px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-150px;
+	margin-top:-25px;
+	text-align:center;
+}

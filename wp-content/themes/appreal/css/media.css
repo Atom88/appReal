@@ -1,0 +1,92 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .servHeightText{
+        height:auto;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    header.mainHeader .navbar-nav > li > a{
+        padding-right: 0;
+    }
+    .mainSliderText {
+        width: 760px;
+        margin-left: -380px;
+    }
+    .servBlImgContainer{
+        margin-top:10px;
+    }
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .mainHeader nav.navbar{
+        background-color: #333;
+        border-color: #080808;
+    }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .servBlImgContainer{
+        margin-top: 15px;
+    }
+    .teamItemDesc {
+        width: 285px;
+        height: 240px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 767px) {
+    header .container-fluid {
+        padding-right: 40px;
+        padding-left: 60px;
+    }
+    .navbar-header .header .siteLogo{
+        margin-left: 15px;
+    }
+    .mainHeader{
+        margin-top: 20px;
+    }
+    .mainHeader .navbar-inverse{
+        background-color: transparent;
+        border-color: transparent;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .teamItemDesc {
+        width: 350px;
+        height: 290px;
+    }
+}
